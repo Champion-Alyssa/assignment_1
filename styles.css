@@ -40,12 +40,14 @@
 .footer {
     grid-area: f ;
     background-color:#817c9c;
-
+    padding: 1rem;
 }
 
 nav ul {
     list-style: none;
     font-size: 2rem;
+    text-align: right;
+    padding-right: 20px;
 }
 
 nav a {
@@ -59,12 +61,6 @@ nav a {
 
     padding-top: 25px;
     font-size: 10px;
-}
-
-label,
-textarea {
-    font-size: .8rem;
-    letter-spacing: 1px;
 }
 
 textarea {
@@ -83,7 +79,7 @@ label {
 .side-button {
     border: none; 
     background-color:#393552 ;
-    color: white;
+    color: #fffaf3;
     text-align: right;
     padding: 10px 10px;
 }
@@ -93,7 +89,22 @@ label {
     display: flex;
     padding: 1rem;
     line-height: 1.5rem;
+}
 
+.save-button {
+    border: none; 
+    background-color:#393552 ;
+    color: #fffaf3;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.delete-button {
+    border: none; 
+    background-color:#393552 ;
+    color: #fffaf3;
+    text-align: right;
+    padding: 10px 10px;
 }
 
 @media screen and (max-width: 1000px) {
