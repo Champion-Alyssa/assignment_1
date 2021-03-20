@@ -61,3 +61,22 @@ nav a {
     font-size: 10px;
 }
 
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    color:#e0def4 ;
+    background-color:#817c9c ;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
