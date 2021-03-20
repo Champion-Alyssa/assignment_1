@@ -80,3 +80,32 @@ label {
     margin-bottom: 10px;
 }
 
+.side-button {
+    border: none; 
+    background-color:#393552 ;
+    color: white;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.nav-side {
+    grid-area: s;
+    display: flex;
+    padding: 1rem;
+    line-height: 1.5rem;
+
+}
+
+@media screen and (max-width: 1000px) {
+    * {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 1rem;
+    }
+}
+
+
