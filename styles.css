@@ -41,6 +41,7 @@
     grid-area: f ;
     background-color:#817c9c;
     padding: 1rem;
+    text-align: center;
 }
 
 nav ul {
@@ -53,7 +54,7 @@ nav ul {
 nav a {
     text-decoration: none;
     margin-left: 10px;
-    color: #e5e5dc;
+    color:#fffaf3;
 }
 
 .nav-item {
@@ -100,6 +101,14 @@ label {
 }
 
 .delete-button {
+    border: none; 
+    background-color:#393552 ;
+    color: #fffaf3;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.new-note {
     border: none; 
     background-color:#393552 ;
     color: #fffaf3;
