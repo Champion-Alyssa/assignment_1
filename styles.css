@@ -43,3 +43,21 @@
 
 }
 
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #e5e5dc;
+}
+
+.nav-item {
+    display: inline-block;
+
+    padding-top: 25px;
+    font-size: 10px;
+}
+
